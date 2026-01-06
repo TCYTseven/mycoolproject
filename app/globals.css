@@ -3,17 +3,17 @@
 :root {
   --background: #000000;
   --foreground: #ffffff;
-  --accent-green: #00ff88;
-  --accent-green-dark: #00cc6a;
-  --accent-green-light: #33ffaa;
+  --accent-red: #ef4444;
+  --accent-red-dark: #dc2626;
+  --accent-red-light: #f87171;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-accent-green: var(--accent-green);
-  --color-accent-green-dark: var(--accent-green-dark);
-  --color-accent-green-light: var(--accent-green-light);
+  --color-accent-red: var(--accent-red);
+  --color-accent-red-dark: var(--accent-red-dark);
+  --color-accent-red-light: var(--accent-red-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
